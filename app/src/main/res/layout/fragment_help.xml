@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#BDBDBD"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/top_square"
+        android:layout_marginBottom="10dp"
+        android:elevation="10dp"
+        android:background="#FAFAFA"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/feedback_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/appbar"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            fancy:mfb_borderColor="@color/colorAccent"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorPrimary"
+            fancy:mfb_focusColor="@color/colorAccent"
+            fancy:mfb_iconFont="fontawesome.ttf"
+            fancy:mfb_iconPosition="left"
+            fancy:mfb_radius="30dp"
+            fancy:mfb_textSize="20sp"
+            fancy:mfb_text="Provide Feedback"
+            fancy:mfb_textColor="#FFFFFF" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/next_square"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/top_square"
+        android:elevation="10dp"
+        android:background="#FAFAFA"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/tutorial_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/appbar"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            fancy:mfb_borderColor="@color/colorAccent"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_defaultColor="@color/colorPrimary"
+            fancy:mfb_focusColor="@color/colorAccent"
+            fancy:mfb_iconFont="fontawesome.ttf"
+            fancy:mfb_iconPosition="left"
+            fancy:mfb_radius="30dp"
+            fancy:mfb_textSize="20sp"
+            fancy:mfb_text="Demonstration Video"
+            fancy:mfb_textColor="#FFFFFF" />
+
+    </RelativeLayout>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_below="@+id/next_square"
+    android:tag="@string/tag_content"
+    android:layout_height="2000dp"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:padding="2dp"
+    >
+
+    <RelativeLayout
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="To activate the app, switch the button in the top right to On. Clicking on a text field in any app will store the generated phrase in your clipboard and paste it into the text field"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:id="@+id/separator1"
+        android:layout_below="@+id/text"
+        android:background="@color/colorPrimary"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/separator1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="Any list items can be deleted with a long press"/>
+
+
+    <View
+        android:id="@+id/separator2"
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/text2"
+        android:background="@color/colorPrimary"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/separator2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="Double Click the Dot on the Active lists to activate that list. If multiple are selected one will be chosen at random"/>
+
+
+    <View
+        android:id="@+id/separator3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text3"
+        android:background="@color/colorPrimary"
+        android:layout_width = "match_parent"
+        android:layout_height="1dp"/>
+
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

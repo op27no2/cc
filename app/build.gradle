@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.0"
+    defaultConfig {
+        applicationId "op27no2.comsta"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 14
+        versionName "1.94"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:27.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:27.+'
+    compile 'nl.psdcompany:duo-navigation-drawer:2.0.6'
+    compile 'com.rilixtech:materialfancybuttons:1.8.7'
+    compile 'com.rilixtech:fontawesome-typeface:4.7.0.4'
+    compile 'com.hanks.animatecheckbox:library:0.1'
+    compile 'com.jaredrummler:material-spinner:1.2.1'
+    compile 'com.snappydb:snappydb-lib:0.5.2'
+    compile 'com.esotericsoftware.kryo:kryo:2.24.0'
+    compile 'com.kyleduo.switchbutton:library:2.0.0'
+    compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true;
+    }
+    testCompile 'junit:junit:4.12'
+
+    //excel library
+    compile files('libs/jxl.jar')
+
+    //thesaurus library
+    compile group: 'net.sf.extjwnl', name: 'extjwnl', version: '1.9.4'
+    compile group: 'net.sf.extjwnl', name: 'extjwnl-data-wn31', version: '1.2'
+
+    //GSON
+    compile 'com.google.code.gson:gson:2.6.2'
+
+    //billing
+    compile 'com.android.billingclient:billing:1.0'
+
+}

@@ -1,0 +1,1207 @@
+<resources>
+    <string name="app_name">Comsta</string>
+    <string name="action_settings">Settings</string>
+    <string name="explain_generate">With default behavior, phrases will be automatically pasted when you click on a text field if the app switch is activated to \'on\'. With this setting, the app switch does nothing, and pressing the generate button in the popup overlay will place the generated text in your clipboard for you to paste.</string>
+
+    <string-array name="options">
+        <item>Home</item>
+        <item>Construct Lists</item>
+        <item>Upgrades</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="IAPs">
+        <item>Generic Comments</item>
+        <item>Fitness Comments</item>
+        <item>Music Comments</item>
+    </string-array>
+
+    <string-array name="premium_generic1">
+        <item>Hi,</item>
+        <item>Hey,</item>
+        <item>Hello,</item>
+        <item>Whats up,</item>
+        <item>How\'s it going,</item>
+        <item>How are you,</item>
+        <item>Hi, how are you,</item>
+        <item>Hey, how are you,</item>
+        <item>Hey there,</item>
+        <item>Hey!</item>
+        <item>Hi!</item>
+        <item>Greetings,</item>
+        <item>Wow,</item>
+        <item>Wow!</item>
+        <item>Woah,</item>
+        <item>Woah!</item>
+        <item>Woahh,</item>
+        <item>Oh wow,</item>
+        <item>Hey hey,</item>
+        <item>Oh hey,</item>
+    </string-array>
+
+    <string-array name="premium_generic2">
+        <item>this is a cool post.</item>
+        <item>this is a great post.</item>
+        <item>what a cool post.</item>
+        <item>what a great post.</item>
+        <item>this is really cool.</item>
+        <item>this is really great.</item>
+        <item>I really like this.</item>
+        <item>I really like your style.</item>
+        <item>I really like your page.</item>
+        <item>I really like your posts.</item>
+        <item>I really enjoy this.</item>
+        <item>I really enjoy your style.</item>
+        <item>I really enjoy your page.</item>
+        <item>I really enjoy your posts.</item>
+        <item>You have some great stuff here.</item>
+        <item>You have some great work here.</item>
+        <item>You have some great posts here.</item>
+        <item>These are some really great posts.</item>
+        <item>These are some really cool posts.</item>
+        <item>These are some really nice posts.</item>
+        <item>Cool posts you have here!</item>
+        <item>Nice posts you have here!</item>
+        <item>Great posts you have here!</item>
+        <item>Awesome posts you have here!</item>
+        <item>Cool posts!</item>
+        <item>Nice posts!</item>
+        <item>Great posts!</item>
+        <item>Awesome posts!</item>
+        <item>I love this.</item>
+        <item>I love your style.</item>
+        <item>I love your page.</item>
+        <item>I love your posts.</item>
+        <item>I absolutely love this.</item>
+        <item>I absolutely love your style.</item>
+        <item>I absolutely love your page.</item>
+        <item>I absolutely love your posts.</item>
+        <item>Your page is impressive!</item>
+        <item>Your page is cool!</item>
+        <item>Your page is inspiring!</item>
+        <item>Your page is excellent!</item>
+        <item>Your page is marvelous!</item>
+
+    </string-array>
+    <string-array name="premium_generic3">
+        <item>Please check out my page too!</item>
+        <item>Please check out my stuff too!</item>
+        <item>Please check out my posts too!</item>
+        <item>Check out my page too!</item>
+        <item>Check out my stuff too!</item>
+        <item>Check out my posts too!</item>
+        <item>Look at my page too!</item>
+        <item>Look at my stuff too!</item>
+        <item>Look at my posts too!</item>
+        <item>Please check out my page as well!</item>
+        <item>Please check out my stuff as well!</item>
+        <item>Please check out my posts as well!</item>
+        <item>Check out my page as well!</item>
+        <item>Check out my stuff as well!</item>
+        <item>Check out my posts as well!</item>
+        <item>Look at my page as well!</item>
+        <item>Look at my stuff as well!</item>
+        <item>Look at my posts as well!</item>
+        <item>Please check out my page also!</item>
+        <item>Please check out my stuff also!</item>
+        <item>Please check out my posts also!</item>
+        <item>Check out my page also!</item>
+        <item>Check out my stuff also!</item>
+        <item>Check out my posts also!</item>
+        <item>Look at my page also!</item>
+        <item>Look at my stuff also!</item>
+        <item>Look at my posts also!</item>
+        <item>It would be great if you could look at my page</item>
+        <item>It would be awesome if you could look at my page</item>
+        <item>It would be great if you could look at my stuff</item>
+        <item>It would be awesome if you could look at my stuff</item>
+        <item>It would be great if you could look at my posts</item>
+        <item>It would be awesome if you could look at my posts</item>
+        <item>It would be great if you could look at my page too</item>
+        <item>It would be awesome if you could look at my page too</item>
+        <item>It would be great if you could look at my stuff too</item>
+        <item>It would be awesome if you could look at my stuff too</item>
+        <item>It would be great if you could look at my posts too</item>
+        <item>It would be awesome if you could look at my posts too</item>
+        <item>if you could look at my stuff, that would be great</item>
+        <item>if you could look at my stuff, that would be awesome</item>
+        <item>if you could look at my stuff, that would be amazing</item>
+        <item>if you could look at my page, that would be great</item>
+        <item>if you could look at my page, that would be awesome</item>
+        <item>if you could look at my page, that would be amazing</item>
+        <item>if you could look at my posts, that would be great</item>
+        <item>if you could look at my posts, that would be awesome</item>
+        <item>if you could look at my posts, that would be amazing</item>
+        <item>Take a look at my page if you get a chance.</item>
+        <item>Take a look at my stuff if you get a chance.</item>
+        <item>Take a look at my posts if you get a chance.</item>
+        <item>Please take a look at my page if you get a chance.</item>
+        <item>Please take a look at my stuff if you get a chance.</item>
+        <item>Please take a look at my posts if you get a chance.</item>
+        <item>Please take a look at my page if you get a chance, that would be great!</item>
+        <item>Please take a look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Please take a look at my posts if you get a chance, that would be amazing!</item>
+        <item>Take a look at my page if you get a chance.</item>
+        <item>Take a look at my stuff if you get a chance.</item>
+        <item>Take a look at my posts if you get a chance.</item>
+        <item>Take a look at my page if you get a chance, that would be great!</item>
+        <item>Take a look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Take a look at my posts if you get a chance, that would be amazing!</item>
+        <item>Look at my page if you get a chance.</item>
+        <item>Look at my stuff if you get a chance.</item>
+        <item>Look at my posts if you get a chance.</item>
+        <item>Look at my page if you get a chance, that would be great!</item>
+        <item>Look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Please look at my page if you get a chance.</item>
+        <item>Please look at my stuff if you get a chance.</item>
+        <item>Please look at my posts if you get a chance.</item>
+        <item>Please look at my page if you get a chance, that would be great!</item>
+        <item>Please look at my stuff if you get a chance, that would be awesome!</item>
+        <item>I\'d appreciate if you check out my page if you get a chance.</item>
+        <item>I\'d appreciate if you check out my posts if you get a chance.</item>
+        <item>I\'d appreciate if you check out my stuff if you get a chance.</item>
+
+
+    </string-array>
+
+    <string-array name="premium_generic4">
+        <item>Thanks.</item>
+        <item>Thanks, later!</item>
+        <item>Thanks, cya!</item>
+        <item>Thanks, see ya!</item>
+        <item>Thanks a bunch,</item>
+        <item>Thanks, later!</item>
+        <item>Thanks, cya!</item>
+        <item>Thanks, see ya!</item>
+        <item>Thanks a ton.</item>
+        <item>Thanks a ton, cya!</item>
+        <item>Thanks a ton, later!</item>
+        <item>Thanks a ton, see ya!</item>
+        <item>Thank you.</item>
+        <item>Later.</item>
+        <item>Cya.</item>
+        <item>See ya.</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="fitness_followback_1">
+        <item>Hi!</item>
+        <item>Hey,</item>
+        <item>Hey, hey,</item>
+        <item>Hi, beautiful,</item>
+        <item>Howdy,</item>
+        <item>Howdy-do,</item>
+        <item>Hello,</item>
+        <item>Helo, friend,</item>
+        <item>Hey there,</item>
+        <item>Hey, how are you,</item>
+        <item>Hiya,</item>
+        <item>Aay, how\’s it going,</item>
+        <item>Hey, what\’s happening,</item>
+        <item>Hi, what\’s the latest,</item>
+        <item>Aloha,</item>
+        <item>Shalom,</item>
+        <item>Bonjour,</item>
+        <item>Greetings, friend,</item>
+        <item>Good morning,</item>
+        <item>Morning!</item>
+        <item>Good evening,</item>
+        <item>Good day,</item>
+        <item>Congrats,</item>
+        <item>Congratulations!</item>
+        <item>Oh, wow,</item>
+        <item>Wow,</item>
+        <item>Woahh,</item>
+        <item>Woah!</item>
+        <item>Hi, how are you,</item>
+        <item>Hey, how\’s it going,</item>
+        <item>Hi! How are you doing,</item>
+        <item>OMG!</item>
+        <item>Hi! far out,</item>
+        <item>Hey hey, un-real,</item>
+        <item>Oh wow, great energy,</item>
+        <item>Wow, awesome work,</item>
+        <item>Hi, out of this world,</item>
+        <item>Hello, awesome skill,</item>
+        <item>Wow, amazing skill,</item>
+        <item>Wow, superb skill,</item>
+        <item>Hey, mad skill,</item>
+        <item>Hi, beautiful skill,</item>
+        <item>Wow, incredible strength,</item>
+        <item>Whoa, stunning strength,</item>
+        <item>Woah, breath-taking!</item>
+        <item>Wow, impressive strength,</item>
+        <item>Oh wow, mad strength,</item>
+    </string-array>
+
+    <string-array name="fitness_followback_2">
+        <item>You are incredible.</item>
+        <item>You are inspiring.</item>
+        <item>You are motivating.</item>
+        <item>You earned my respect.</item>
+        <item>You gained my admiration.</item>
+        <item>You set the bar high.</item>
+        <item>Your hard work is persuasive.</item>
+        <item>You\’re strength is amazing.</item>
+        <item>I admire your motivation.</item>
+        <item>I adore your ability here.</item>
+        <item>I love your power!</item>
+        <item>I appreciate your power.</item>
+        <item>I am inspired by you.</item>
+        <item>I am encouraged by you.</item>
+        <item>I am in awe.</item>
+        <item>I am star-struck.</item>
+        <item>I am speechless.</item>
+        <item>I am completely amazed.</item>
+        <item>I am blown away.</item>
+        <item>what an amazing post.</item>
+        <item>what an awesome post.</item>
+        <item>what an inspiring post.</item>
+        <item>this is so great.</item>
+        <item>this is one of the best pages.</item>
+        <item>you have some great posts.</item>
+        <item>you have some great stuff.</item>
+        <item>your posts are amazing.</item>
+        <item>your page is amazing.</item>
+        <item>your posts are so unique.</item>
+        <item>your page is one of a kind.</item>
+        <item>your posts are extraordinary.</item>
+        <item>your page is extraordinary.</item>
+        <item>your posts are the best</item>
+        <item>your page is the best.</item>
+        <item>great posts on your page!</item>
+        <item>amazing posts on your page!</item>
+        <item>I really enjoy your page.</item>
+        <item>I really like your page.</item>
+        <item>I really like your posts.</item>
+        <item>I really enjoy your posts.</item>
+        <item>I really appreciate your page.</item>
+        <item>I really appreciate your posts.</item>
+        <item>awesome pics!</item>
+        <item>awesome posts!</item>
+        <item>incredible pics!</item>
+        <item>incredible posts!</item>
+        <item>encouraging pics!</item>
+        <item>encouraging posts!</item>
+    </string-array>
+
+    <string-array name="fitness_followback_3">
+        <item>Please check my page out, as well!</item>
+        <item>Please check my posts out, too!</item>
+        <item>Please take a glance at my post.</item>
+        <item>Please take a peek at my latest post.</item>
+        <item>Please take a glance at my page.</item>
+        <item>Check out my latest post, please.</item>
+        <item>Check out my latest post if you get a chance.</item>
+        <item>Check out my recent if you get a chance.</item>
+        <item>Check out my recent, please.</item>
+        <item>Check out my page if you get a chance.</item>
+        <item>Check out my page, please.</item>
+        <item>Check out my latest pic.</item>
+        <item>Check out my latest upload.</item>
+        <item>Check out the link in my bio.</item>
+        <item>I think you would like my page, also.</item>
+        <item>I think you would enjoy my page!</item>
+        <item>I think my posts would interest you.</item>
+        <item>I think my page would interest you.</item>
+        <item>I think my page would inspire you.</item>
+        <item>I think my posts would inspire you.</item>
+        <item>I feel like you my page would relate to you, check it out!</item>
+        <item>I feel like my page would connect with you, check it out!</item>
+        <item>I believe my page will interest you as well.</item>
+        <item>I believe my posts will interest you as well.</item>
+        <item>I believe you would like my page, too.</item>
+        <item>I believe you would enjoy my page.</item>
+        <item>Take a look at my page, please.</item>
+        <item>Take a look at my latest post, please.</item>
+        <item>Take a peek at my page, please.</item>
+        <item>Take a glance at my latest post, please.</item>
+        <item>Explore my page if you have time, that would be amazing!</item>
+        <item>Consider my page if you get a change, that would be great.</item>
+        <item>Follow up on my page when you can, please!</item>
+        <item>It would be awesome if you checked out my page.</item>
+        <item>It would be awesome if you checked out my recent post.</item>
+        <item>I would love it if you viewed my page.</item>
+        <item>I would love it if you viewed my latest post.</item>
+        <item>Send my page some love</item>
+        <item>Send my page some good vibes.</item>
+        <item>Send my latest post some love</item>
+        <item>Send my latest post some good vibes.</item>
+        <item>Please, send my page some love, too.</item>
+        <item>Please, send my latest post some love, too.</item>
+        <item>Please, send my page some good vibes as well.</item>
+        <item>Please, send my latest post some good vibes, as well.</item>
+    </string-array>
+
+    <string-array name="fitness_followback_4">
+        <item>Thanks.</item>
+        <item>Thank you so much.</item>
+        <item>Thank you.</item>
+        <item>Thanks, see ya!</item>
+        <item>Thanks, talk later.</item>
+        <item>Thanks a ton.</item>
+        <item>Thanks a bunch.</item>
+        <item>I appreciate it.</item>
+        <item>I appreciate ya.</item>
+        <item>Much respect, later.</item>
+        <item>Much respect, cya!</item>
+        <item>Much appreciation, cya!</item>
+        <item>Much appreciation, later.</item>
+        <item>Gracias.</item>
+        <item>Good vibes.</item>
+        <item>Sending good vibes.</item>
+        <item>Good wishes.</item>
+        <item>Sending good wishes.</item>
+        <item>Best wishes.</item>
+        <item>Sending best wishes.</item>
+        <item>High regards, cya!</item>
+        <item>High regards, later!</item>
+        <item>Warm regards, cya!</item>
+        <item>Warm regards, later!</item>
+        <item>My compliments, see ya!</item>
+        <item>Good will.</item>
+        <item>Good will, see ya!</item>
+        <item>Good will, later!</item>
+        <item>Much love, later.</item>
+        <item>Much love, cya!</item>
+        <item>Much thanks, later.</item>
+        <item>Much thanks, cya!</item>
+        <item>Stay in touch, please.</item>
+        <item>Stay in touch, thanks.</item>
+        <item>See-ya!</item>
+        <item>Later!</item>
+        <item>Afterwhile!</item>
+        <item>Another time, cya!</item>
+        <item>Thanks, farewell.</item>
+        <item>Thanks, adieu.</item>
+    </string-array>
+
+
+
+    <string-array name="music_1">
+        <item>I\’m blown away,</item>
+        <item>I am immensly blown away,</item>
+        <item>I\’m lost for words,</item>
+        <item>I am profoundly at a loss for words,</item>
+        <item>I am shook right now,</item>
+        <item>I\’m shook,</item>
+        <item>I\’m moved,</item>
+        <item>I am tremendously moved,</item>
+        <item>I am seriously stunned,</item>
+        <item>I\’m stunned,</item>
+        <item>I\’m dazed,</item>
+        <item>I am totally in a daze,</item>
+        <item>I am utterly shocked,</item>
+        <item>I\’m shocked,</item>
+        <item>I\’m elated,</item>
+        <item>I m completely elated,</item>
+        <item>I\’m in awe,</item>
+        <item>I am downright in awe,</item>
+        <item>I\’m astounded,</item>
+        <item>I am absolutely astounded,</item>
+        <item>I\’m astonished,</item>
+        <item>I am entirely astonished,</item>
+        <item>I am quite amazed,</item>
+        <item>I\’m amazed,</item>
+        <item>I am altogether mezmorized,</item>
+        <item>I\’m mezmorized,</item>
+        <item>I\’m captivated,</item>
+        <item>I am fully captivated,</item>
+        <item>Oh, wow,</item>
+        <item>Wow,</item>
+        <item>Woah,</item>
+        <item>OMG,</item>
+    </string-array>
+
+    <string-array name="music_2">
+        <item>your passion is beautiful</item>
+        <item>your passion is amazing</item>
+        <item>your passion is fire</item>
+        <item>your passion is fierce</item>
+        <item>your passion is surreal</item>
+        <item>your passion is incredible</item>
+        <item>your talent is beautiful</item>
+        <item>your talent is amazing</item>
+        <item>your talent is fire</item>
+        <item>your talent is fierce</item>
+        <item>your talent is surreal</item>
+        <item>your talent is incredible</item>
+        <item>your music is beautiful</item>
+        <item>your music is amazing</item>
+        <item>your music is fire</item>
+        <item>your music is surreal</item>
+        <item>your music is incredible</item>
+        <item>your music is fierce</item>
+        <item>your music leaves me speechless</item>
+        <item>your music gives me chills</item>
+        <item>your music inspires me</item>
+        <item>your music is beyond compare</item>
+        <item>your music is out of this world</item>
+        <item>your music is possessing</item>
+        <item>your music is powerful</item>
+        <item>your music is full of energy</item>
+        <item>your natural ability here is obvious</item>
+        <item>your skill here is obvious</item>
+        <item>your brilliance here is obvious</item>
+        <item>your forte here is obvious</item>
+        <item>your gift here is obvious</item>
+    </string-array>
+
+    <string-array name="music_3">
+        <item>and leaves no room for criticism.</item>
+        <item>and should be heard.</item>
+        <item>and should be discovered.</item>
+        <item>and should be recognized.</item>
+        <item>and should be uncovered.</item>
+        <item>and should be unearthed.</item>
+        <item>and must be shared.</item>
+        <item>and must be distinguished.</item>
+        <item>and ought to be famed.</item>
+        <item>and ought to be well known.</item>
+        <item>and ought to be appreciated.</item>
+        <item>and ought to be noted.</item>
+        <item>and ought to be celebrated.</item>
+        <item>and will touch others.</item>
+        <item>and will undeniably touch lives.</item>
+        <item>and will undeniably awaken others.</item>
+        <item>and will undeniably awaken lives.</item>
+        <item>and will undeniably light a fire.</item>
+        <item>and will undeniably spark hearts.</item>
+        <item>and will undeniably electrify others.</item>
+        <item>and will undeniably electrify lives.</item>
+        <item>and most definitely unique.</item>
+        <item>and most definitely intriguing.</item>
+        <item>and most definitely exclusive.</item>
+        <item>and most definitely remarkable.</item>
+        <item>and most definitely exceptional.</item>
+        <item>with such profound expertise.</item>
+        <item>with such profound artistry.</item>
+        <item>with such profound strength.</item>
+        <item>with such profound capacity.</item>
+        <item>with such profound genius.</item>
+        <item>with such profound technique.</item>
+        <item>with such profound faculty.</item>
+    </string-array>
+
+    <string-array name="music_4">
+        <item>I am still incredibly impressed.</item>
+        <item>I\’m still impressed.</item>
+        <item>My mouth is still on the floor.</item>
+        <item>I still gotta pick my jaw up off the floor.</item>
+        <item>I\’m still wrapping my mind around it.</item>
+        <item>My mind is left aroused.</item>
+        <item>I feel like completely touched.</item>
+        <item>I feel almost euphoric.</item>
+        <item>I can\’t wait to hear more.</item>
+        <item>I cannot wait to hear more.</item>
+        <item>I absolutely wanna hear more!</item>
+        <item>I absolutely want to hear more!</item>
+        <item>I absolutely have to hear more!</item>
+        <item>I absolutely need to hear more!</item>
+        <item>I absolutely must hear more!</item>
+        <item>I absolutely look forward to hearing more.</item>
+        <item>I am so excited to hear more.</item>
+        <item>I am stoked to hear more.</item>
+        <item>I\’m dumbfounded, even now.</item>
+        <item>I am still dumbfounded.</item>
+        <item>I\’m exhilirated, even now.</item>
+        <item>I am still exhilirated.</item>
+        <item>I am inflamed, even now.</item>
+        <item>I am still inflamed.</item>
+        <item>I am enlivened, even now.</item>
+        <item>I am still enlivened.</item>
+        <item>I will without a doubt remember this.</item>
+        <item>I will without a doubt brood over this.</item>
+        <item>I will without a doubt think back on this.</item>
+        <item>I will remember this, without a doubt.</item>
+        <item>I will brood over this, without a doubt.</item>
+        <item>I will think back on this, without a doubt.</item>
+    </string-array>
+
+    <string-array name="music_5">
+        <item>You should visit my page, when you can.</item>
+        <item>You should visit my page, when you have time.</item>
+        <item>Yous should check out my page, when you can.</item>
+        <item>You should check out my page, when you have time.</item>
+        <item>You should drop by my page, when you can.</item>
+        <item>You should drop by my page, when you have time.</item>
+        <item>You should explore my page, when you have time.</item>
+        <item>You should explore my page, when you can.</item>
+        <item>Please visit my page.</item>
+        <item>Please check out my page.</item>
+        <item>Please drop by my page.</item>
+        <item>Please explore my page.</item>
+        <item>I would love it if you visited my page.</item>
+        <item>I would love it if you checked out my page.</item>
+        <item>I would love it if you dropped by my page.</item>
+        <item>I would love it if you explored my page.</item>
+        <item>I would appreciate it if you visited my page.</item>
+        <item>I would appreciate it if you checked out my page.</item>
+        <item>I would appreciate it if you dropped by my page.</item>
+        <item>I would appreciate it if you explored my page.</item>
+        <item>I would love for you to visit my page, when you can.</item>
+        <item>I would love for you to check out my page, when you can.</item>
+        <item>I would love for you to drop by my page, when you can.</item>
+        <item>I would love for you to explore my page, when you can.</item>
+        <item>Please, check out my latest post.</item>
+        <item>Check out my latest post, please.</item>
+        <item>Please check out my latest post if you get a chance.</item>
+        <item>Please check out my latest post, when you can.</item>
+    </string-array>
+
+    <string-array name="music_6">
+        <item>I feel like you will enjoy!</item>
+        <item>I feel like you would enjoy!</item>
+        <item>I think you will enjoy!</item>
+        <item>I think you would enjoy!</item>
+        <item>I feel like you would relate!</item>
+        <item>I feel like you will relate!</item>
+        <item>I think you would relate!</item>
+        <item>I think you will relate!</item>
+        <item>I believe we will connect.</item>
+        <item>I believe we would connect.</item>
+        <item>You might enjoy my content.</item>
+        <item>You may enjoy my content.</item>
+        <item>You might relate to my content.</item>
+        <item>You may relate to my content.</item>
+        <item>You might connect with my content.</item>
+        <item>You may connect with my content.</item>
+        <item>I would like to share with you.</item>
+        <item>I would love to share with you.</item>
+        <item>I would enjoy sharing with you.</item>
+        <item>I would be grateful sharing with you.</item>
+        <item>I would like to stay connected.</item>
+        <item>I would love to stay connected.</item>
+        <item>I would enjoy staying connected.</item>
+        <item>I would be grateful if we stayed connected.</item>
+        <item>It would be awesome if we shared out abilities.</item>
+        <item>It would be awesome if we shared our music.</item>
+        <item>It would be awesome if we shared our platforms.</item>
+        <item>It would be great if we stayed connected.</item>
+    </string-array>
+
+    <string-array name="music_7">
+        <item>I feel like you will enjoy!</item>
+        <item>I feel like you would enjoy!</item>
+        <item>I think you will enjoy!</item>
+        <item>I think you would enjoy!</item>
+        <item>I feel like you would relate!</item>
+        <item>I feel like you will relate!</item>
+        <item>I think you would relate!</item>
+        <item>I think you will relate!</item>
+        <item>I believe we will connect.</item>
+        <item>I believe we would connect.</item>
+        <item>You might enjoy my content.</item>
+        <item>You may enjoy my content.</item>
+        <item>You might relate to my content.</item>
+        <item>You may relate to my content.</item>
+        <item>You might connect with my content.</item>
+        <item>You may connect with my content.</item>
+        <item>I would like to share with you.</item>
+        <item>I would love to share with you.</item>
+        <item>I would enjoy sharing with you.</item>
+        <item>I would be grateful sharing with you.</item>
+        <item>I would like to stay connected.</item>
+        <item>I would love to stay connected.</item>
+        <item>I would enjoy staying connected.</item>
+        <item>I would be grateful if we stayed connected.</item>
+        <item>It would be awesome if we shared out abilities.</item>
+        <item>It would be awesome if we shared our music.</item>
+        <item>It would be awesome if we shared our platforms.</item>
+        <item>It would be great if we stayed connected.</item>
+    </string-array>
+
+<string-array name="free_thanks_1">
+    <item>Thanks.</item>
+    <item>Thank you.</item>
+    <item>Thank you for the kinds words.</item>
+    <item>Thank you very much. </item>
+    <item>Thanks so much.</item>
+    <item>Thanks for the kind words.</item>
+    <item>Much obliged!</item>
+    <item>Thank you very much for the kind words.</item>
+    <item>Many thanks!</item>
+    <item>Thanks a million!</item>
+    <item>Thanks a bunch!</item>
+    <item>Thanks a lot!</item>
+    <item>Thanks a ton!</item>
+    <item>Thanks so much for the kind words.</item>
+    <item>Thanks for the kind words. </item>
+</string-array>
+
+<string-array name="free_thanks_2">
+    <item>I appreciate it.</item>
+    <item>It\'s very appreciated.</item>
+    <item>It\'s appreciated.</item>
+    <item>Much appreciated!</item>
+    <item>Very much appreciated!</item>
+    <item>You\'re so kind.</item>
+    <item>You are very kind.</item>
+    <item>You\'re the best.</item>
+    <item>I appreciate your support!</item>
+    <item>Stay in touch!</item>
+    <item>Later!</item>
+</string-array>
+
+<string-array name="free_general_1">
+    <item>Wow,</item>
+    <item>Truthfully,</item>
+    <item>Genuinely,</item>
+    <item>Wholeheartedly,</item>
+    <item>Seriously,</item>
+    <item>I\'m impressed,</item>
+    <item>Woah,</item>
+    <item></item>
+    <item></item>
+    <item>Oh, wow,</item>
+    <item>In all honesty,</item>
+    <item>Quite frankly,</item>
+    <item>Sincerely,</item>
+</string-array>
+
+<string-array name="free_general_2">
+    <item>I like your page,</item>
+    <item>I love your posts,</item>
+    <item>I really enjoy your posts,</item>
+    <item>your page is exceptional,</item>
+    <item>your page is extraordinary,</item>
+    <item>your page is epic,</item>
+    <item>your page is amazing,</item>
+    <item>your page is incredible,</item>
+    <item>your page is stunning,</item>
+    <item>your page is fantastic,</item>
+    <item>your page is fabulous,</item>
+    <item>your page is great,</item>
+    <item>your page is awesome,</item>
+    <item>your posts are great,</item>
+    <item>your posts are the best,</item>
+    <item>your posts are wonderful,</item>
+    <item>your posts are inspiring,</item>
+    <item>your posts are exceptional,</item>
+    <item>wonderful post,</item>
+    <item>amazing post,</item>
+    <item>incredible post,</item>
+    <item>awesome work,</item>
+    <item>great work,</item>
+</string-array>
+
+<string-array name="free_general_3">
+    <item>I can\'t wait to see more.</item>
+    <item>I\'m excited to see your new stuff.</item>
+    <item>I\'m excited to see more.</item>
+    <item>I look forward to seeing your new stuff.</item>
+    <item>I\'m looking forward to seeing more.</item>
+    <item>I look forward to seeing more.</item>
+    <item>I\'m excited to watch your journey.</item>
+    <item>I\'m stoked to see your journey.</item>
+    <item>Love looking at your photos!</item>
+    <item>Love looking at your pics!</item>
+    <item>I love checking out your stuff!</item>
+    <item>I enjoy checking out your stuff!</item>
+    <item>I can\'t wait to see your journey unfold.</item>
+    <item>Can\'t wait to follow your journey.</item>
+    <item>I can\'t wait to see your story unfold.</item>
+    <item>Can\'t wait to follow your story.</item>
+    <item>I\'m excited to visit your account more.</item>
+    <item>I look forward to observing your account further.</item>
+    <item>I\'m excited to visit your account further.</item>
+    <item>I\'m excited to observe your account further.</item>
+    <item>I am happy to follow your story.</item>
+    <item>I am happy to follow your journey.</item>
+    <item>I am happy to see your journey.</item>
+    <item>I am happy to watch your journey.</item>
+</string-array>
+
+<string-array name="free_general_4">
+    <item>Stay wonderful!</item>
+    <item>Nice job!</item>
+    <item>Good job!</item>
+    <item>Great job!</item>
+    <item>Amazing job!</item>
+    <item>Incredible job!</item>
+    <item>You make it look easy.</item>
+    <item>Way to go!</item>
+    <item>Look at you go!</item>
+    <item>Well, look at you go!</item>
+    <item>Nice work!</item>
+    <item>Good work!</item>
+    <item>Great work!</item>
+    <item>Amazing work!</item>
+    <item>Incredible work!</item>
+    <item>Good going!</item>
+    <item>Right on!</item>
+    <item>Wonderful!</item>
+    <item>Outstanding!</item>
+    <item>I\'ve never seen anyone do it better!</item>
+    <item>Keep up the progress.</item>
+    <item>Keep up the good work.</item>
+    <item>Keep it up!</item>
+</string-array>
+
+<string-array name="free_general_5">
+    <item>Follow my story if you\'d like.</item>
+    <item>Please, follow my story, too!</item>
+    <item>Follow my journey if you\'d like.</item>
+    <item>Please, follow my journey, too!</item>
+    <item>Check out my page if you can.</item>
+    <item>Please, check out my page, too!</item>
+    <item>Check out my latest post if you can.</item>
+    <item>Please, check out my latest post.</item>
+    <item>Follow my account, if you\'d like.</item>
+    <item>Please, follow my account, too!</item>
+    <item>I\'d love for you to follow my accouny if you can.</item>
+    <item>I\'d love for you to follow my journey if you can.</item>
+    <item>I’d love for you to follow my story if you can.</item>
+    <item>I\'d love for you to follow my page if you can.</item>
+    <item>It would be great if you followed my account, too!</item>
+    <item>It would be great if you followed my story, too!</item>
+    <item>It would be great if you followed my journey, too!</item>
+    <item>It would be great if you followed my page, too!</item>
+    <item>I\'d love for you to visit my page if you can.</item>
+    <item>It would be great if you visited my page, too!</item>
+    <item>If you get time, please check out my page.</item>
+    <item>If time allows, please check out my page.</item>
+    <item>If you get time, please follow my page.</item>
+    <item>If time allows, please follow out my page.</item>
+    <item>If you get time, please check out my latest.</item>
+    <item>If time allows, please check out my latest.</item>
+    <item>If you get time, please check out my account.</item>
+    <item>If time allows, please check out my account.</item>
+    <item>If you get time, please check out my journey.</item>
+    <item>If time allows, please check out my journey.</item>
+    <item>If you get time, please check out my story.</item>
+    <item>If time allows, please check out my story.</item>
+</string-array>
+
+<string-array name="free_general_6">
+    <item>Thanks a ton!!!</item>
+    <item>You’re so helpful!</item>
+    <item>You\'re so kind!!</item>
+    <item>You\'re so generous!</item>
+    <item>All my gratitude!</item>
+    <item>I am all gratitude.</item>
+    <item>Thanks a TON.</item>
+    <item>You have my gratitude.</item>
+    <item>Thanks a million!</item>
+    <item>I appreciate you.</item>
+    <item>Shout-out!</item>
+</string-array>
+
+
+<string-array name="free_entertaining_1">
+    <item>Woahh!</item>
+    <item>Oh, wow!</item>
+    <item>Woah!</item>
+    <item>Hello there.</item>
+    <item>Hi there.</item>
+    <item>Hey, hey!</item>
+    <item>Hey</item>
+    <item>A-yo!</item>
+    <item>How are you?</item>
+    <item>How are ya?</item>
+    <item>How is it going?</item>
+    <item>How goes it?</item>
+    <item>Hiya!</item>
+    <item>Hola.</item>
+    <item>Namaste.</item>
+    <item>Good day!</item>
+    <item>You rock!</item>
+    <item>Well done!</item>
+</string-array>
+
+<string-array name="free_entertaining_2">
+    <item>That\'s incredible,</item>
+    <item>This is epic,</item>
+    <item>That\'s epic,</item>
+    <item>This is motivational,</item>
+    <item>That\'s so motivational,</item>
+    <item>That\'s is so breathtaking,</item>
+    <item>This is so breathtaking,</item>
+    <item>This is so funny,</item>
+    <item>That\'s so funny,</item>
+    <item>This is hilarious,</item>
+    <item>That\'s so hilarious,</item>
+    <item>This is so exciting,</item>
+    <item>That\'s so exciting,</item>
+    <item>What sheer talent,</item>
+    <item>What incredible ability,</item>
+    <item>What amazing potential,</item>
+    <item>What insane capability,</item>
+    <item>What serious skill,</item>
+    <item>What brilliance,</item>
+    <item>What cleverness,</item>
+    <item>What acuity,</item>
+</string-array>
+
+<string-array name="free_entertaining_3">
+    <item>you\'re mind-blowing.</item>
+    <item>you\'re impressive.</item>
+    <item>you\’re poetic.</item>
+    <item>you\'re stunning.</item>
+    <item>you\'re wondrous.</item>
+    <item>you\'re so savvy.</item>
+    <item>you\'re exceptional.</item>
+    <item>you have a talent.</item>
+    <item>you have a gift.</item>
+    <item>you have skill.</item>
+    <item>you have a special expertise.</item>
+    <item>you have something special.</item>
+    <item>you have perfect technique.</item>
+    <item>you have what it takes.</item>
+    <item>you have such an ease.</item>
+    <item>you\'re an artist</item>
+    <item>you\'re an expert.</item>
+    <item>you\'re a superhuman.</item>
+    <item>you\'re a special person.</item>
+    <item>you\’re one of a kind.</item>
+    <item>you\’re out of this world.</item>
+    <item>you\’re a master.</item>
+    <item>you\'re a professional.</item>
+</string-array>
+
+<string-array name="free_entertaining_4">
+    <item>So hilarious,</item>
+    <item>Super intriguing,</item>
+    <item>By far fascinating,</item>
+    <item>Very enjoyable,</item>
+    <item>Totally legendary,</item>
+    <item>Super cool,</item>
+    <item>Seriously unbelievable,</item>
+    <item>Just spectacular,</item>
+    <item>Simply the best,</item>
+    <item>Certainly astonishing,</item>
+    <item>Definitely astounding,</item>
+    <item>Easily entertaining,</item>
+    <item>Without a doubt, inspiring,</item>
+    <item>Obviously jolting,</item>
+    <item>Wihtout fail, alluring,</item>
+    <item>Without question, fascinating,</item>
+    <item>Seriously sublime,</item>
+    <item>Absolutely winning,</item>
+    <item>Very magnetic,</item>
+    <item>Totally heart-stirring,</item>
+    <item>Easily awe-inspiring,</item>
+    <item>So moving,</item>
+    <item>Super thrilling,</item>
+</string-array>
+
+<string-array name="free_entertaining_5">
+    <item>like it a lot.</item>
+    <item>enjoyed it!</item>
+    <item>I enjoyed it!</item>
+    <item>I appreciate it.</item>
+    <item>aprreciate it.</item>
+    <item>I adore this!</item>
+    <item>adore this!</item>
+    <item>I am so fond of this!</item>
+    <item>I\'m fond of this!</item>
+    <item>I am blown away.</item>
+    <item>I\'m blown away.</item>
+    <item>I\'m thunderstruck.</item>
+    <item>I am thunderstruck.</item>
+    <item>I am floored.</item>
+    <item>I\'m floored.</item>
+    <item>I\'m speechless.</item>
+    <item>I am speechless.</item>
+    <item>how unreal is that?</item>
+    <item>how unreal is this?</item>
+    <item>how rad is that?</item>
+    <item>how rad is this?</item>
+    <item>how cool is that?</item>
+    <item>how cool is this?</item>
+</string-array>
+
+<string-array name="free_entertaining_6">
+    <item>Thanks a lot!</item>
+    <item>Thanks to you!</item>
+    <item>Thx!</item>
+    <item>Thank ya!</item>
+    <item>Much obliged.</item>
+    <item>Much appreciation.</item>
+    <item>Much thanks.</item>
+    <item>Bless you.</item>
+    <item>Cheers to you!</item>
+    <item>Shout-out to you!</item>
+    <item>Many thanks!</item>
+    <item>Thanks a million!</item>
+    <item>Thanks for sharing!</item>
+    <item>Thanks for sharing!</item>
+    <item>xoxox</item>
+    <item>XOXOX</item>
+</string-array>
+
+
+
+<string-array name="free_interesting_1">
+    <item>Let me tell you,</item>
+    <item>Let me just tell you,</item>
+    <item>For the record,</item>
+    <item>Let me be honest,</item>
+    <item>Let me be real,</item>
+    <item>Let\'s be honest,</item>
+    <item>Let\’s be real,</item>
+    <item>Being honest here,</item>
+    <item>Being real here,</item>
+    <item>Being up front here,</item>
+    <item>Being honest,</item>
+    <item>Being real,</item>
+    <item>Being up front,</item>
+    <item>Truth be told,</item>
+    <item>Truthfully,</item>
+    <item>Truth is,</item>
+</string-array>
+
+<string-array name="free_interesting_2">
+    <item>this is so amazing!</item>
+    <item>you are so awesome!</item>
+    <item>you are so great!</item>
+    <item>you are really excellent!</item>
+    <item>you are so cool!</item>
+    <item>you are very cool!</item>
+    <item>you are really incredible!</item>
+    <item>you are totally epic!</item>
+    <item>you are really genuine!</item>
+    <item>you are very authentic!</item>
+    <item>you are so original!</item>
+    <item>you are so amaIng!</item>
+    <item>you seem so awesome!</item>
+    <item>you seem so great!</item>
+    <item>you seem really excellent!</item>
+    <item>you seem so cool!</item>
+    <item>you seem very cool!</item>
+    <item>you seem really incredible!</item>
+    <item>you seem totally epic!</item>
+    <item>you seem really genuine!</item>
+    <item>you seem very authentic!</item>
+    <item>you seem so original!</item>
+    <item>you seem so amazing!</item>
+</string-array>
+
+<string-array name="free_interesting_3">
+    <item>Definitely stoked I saw this,</item>
+    <item>Definitely ecstatic I saw this,</item>
+    <item>I am glad I saw your post,</item>
+    <item>I am happy I saw your post,</item>
+    <item>I am stoked I saw your post,</item>
+    <item>I am excited I saw your post,</item>
+    <item>I am glad to see your page,</item>
+    <item>I am happy to see your page,</item>
+    <item>I am excited to see your page,</item>
+    <item>I am excited to see your page,</item>
+    <item>I can relate to this,</item>
+    <item>I can relate to your page,</item>
+    <item>I can relate to your post,</item>
+    <item>I can relate to this post,</item>
+    <item>Honestly related to this,</item>
+    <item>Honestly connected to this post,</item>
+    <item>Honestly loved this post,</item>
+    <item>Honestly appreciated this post,</item>
+    <item>Really related to this post,</item>
+    <item>Really connected to this post,</item>
+    <item>Really loved this post,</item>
+    <item>Really appreciated this post,</item>
+</string-array>
+
+<string-array name="free_interesting_4">
+    <item>it was so honest.</item>
+    <item>it\’s so honest.</item>
+    <item>it is very impressive.</item>
+    <item>it was very impressive.</item>
+    <item>it\'s so impressive.</item>
+    <item>it is so creative.</item>
+    <item>is was so creative.</item>
+    <item>it\’s so creative.</item>
+    <item>it is really rad.</item>
+    <item>it was really rad.</item>
+    <item>it\'s really rad.</item>
+    <item>it is so original.</item>
+    <item>it was so original.</item>
+    <item>it\'s so original.</item>
+    <item>it is very appreciable.</item>
+    <item>it was very appreciable.</item>
+    <item>it\'s very appreciable.</item>
+    <item>it is really eye-catching.</item>
+    <item>it was really eye-catching.</item>
+    <item>it\'s so eye-catching.</item>
+</string-array>
+
+<string-array name="free_interesting_5">
+    <item>It\'ll be awesome to see more.</item>
+    <item>Keep on rocking it.</item>
+    <item>Keep on brining it.</item>
+    <item>Glad to share with with you.</item>
+    <item>Glad to connect with you.</item>
+    <item>Glad to follow you.</item>
+    <item>Glad to share your page.</item>
+    <item>Glad to connect through your page.</item>
+    <item>Glad to follow your page.</item>
+    <item>I am excited to share your page.</item>
+    <item>I am excited to connect through your page.</item>
+    <item>I am excited to follow your page.</item>
+    <item>I love looking through your page.</item>
+    <item>I love looking at your page.</item>
+    <item>I love looking through your posts.</item>
+    <item>I love looking at your posts.</item>
+    <item>It is fun looking through your page.</item>
+    <item>It\'s fun looking at your page.</item>
+    <item>It\'s fun looking through your posts.</item>
+    <item>It\'s fun looking at your posts.</item>
+</string-array>
+
+
+
+<string-array name="free_fashion_1">
+    <item>YESSS,</item>
+    <item>Yes to all of this,</item>
+    <item>Yes to this,</item>
+    <item>YES,</item>
+    <item>TERRIFIC,</item>
+    <item>Terrific,</item>
+    <item>LOVE,</item>
+    <item>Love,</item>
+    <item>Love this,</item>
+    <item>Cute,</item>
+    <item>CUTE,</item>
+    <item>Awesome,</item>
+    <item>AWESOME,</item>
+    <item>Amazing,</item>
+    <item>Amazing,</item>
+    <item>Nice,</item>
+    <item>NICE,</item>
+    <item>Great,</item>
+    <item>Great,</item>
+</string-array>
+
+<string-array name="free_fashion_2">
+    <item>love this quote,</item>
+    <item>I love this quote,</item>
+    <item>love this image,</item>
+    <item>I love this image,</item>
+    <item>admire this quote,</item>
+    <item>I admire this quote,</item>
+    <item>admire this image,</item>
+    <item>I admire this image,</item>
+    <item>adore this quote,</item>
+    <item>I adore this quote,</item>
+    <item>love your style,</item>
+    <item>I love your style,</item>
+    <item>love your mood,</item>
+    <item>I love your mood,</item>
+    <item>enjoy your perspective,</item>
+    <item>I enjoy your perspective,</item>
+    <item>love this capture,</item>
+    <item>I love this capture,</item>
+    <item>admire this view,</item>
+    <item>I admire this view,</item>
+    <item>this is my favorite pic,</item>
+    <item>this is my favorite picture,</item>
+    <item>admire your feed,</item>
+    <item>I admire your feed,</item>
+</string-array>
+
+<string-array name="free_fashion_3">
+    <item>it aims to inspire others.</item>
+    <item>you aim to inspire others.</item>
+    <item>it brings light to others.</item>
+    <item>it brings light to me.</item>
+    <item>you bring light to others.</item>
+    <item>you bring light to me.</item>
+    <item>it is beautiful.</item>
+    <item>you are a beautiful person.</item>
+    <item>it is encouraging to others.</item>
+    <item>you are encouraging others.</item>
+    <item>it is encouraging to me.</item>
+    <item>you are encouraging me.</item>
+    <item>it is magical.</item>
+    <item>you are magical.</item>
+    <item>it is so effortless.</item>
+    <item>you are so effortless.</item>
+    <item>it is inspirational to me.</item>
+    <item>you are inspirational to me.</item>
+    <item>you are an inspiration.</item>
+    <item>it is an inspiration to others.</item>
+    <item>you are an inspiration to others.</item>
+    <item>it makes my soul happy.</item>
+    <item>you make my soul happy.</item>
+    <item>it\'s so funny.</item>
+</string-array>
+
+<string-array name="free_fashion_4">
+    <item>Plus you look great!</item>
+    <item>And you look great!</item>
+    <item>You look great by the way.</item>
+    <item>You look great BTW.</item>
+    <item>Plus your outfit is perfect!</item>
+    <item>And your outfit is perfect!</item>
+    <item>Your outfit is pefect by the way.</item>
+    <item>Your outfit is perfect BTW.</item>
+    <item>Plus your smile is amazing.</item>
+    <item>And your smile is amazing.</item>
+    <item>Your smile is amazing by the way.</item>
+    <item>Your smile is amazing BTW.</item>
+    <item>Plus your look is perfect.</item>
+    <item>And your look is perfect.</item>
+    <item>Your look is perfect by the way.</item>
+    <item>Your look is perfect BTW.</item>
+    <item>Plus your journey is incredible.</item>
+    <item>And your journey is incredible.</item>
+    <item>Plus your actions are goals.</item>
+    <item>And your actions are goals.</item>
+    <item>You are killing it!</item>
+    <item>You set the bar high.</item>
+    <item>You give me goals.</item>
+    <item>You give me aspiration.</item>
+    <item>You give me hope.</item>
+    <item>You give me calamity.</item>
+    <item>You give me motivation.</item>
+    <item>I hope to get on your level.</item>
+    <item>I hope to get to this level.</item>
+</string-array>
+
+<string-array name="free_fashion_5">
+    <item>Please, stop by my page soon.</item>
+    <item>Stop by my page soon, please.</item>
+    <item>Stop by my page if you have time.</item>
+    <item>Please, visit my page sometime.</item>
+    <item>Visit my page sometime, please.</item>
+    <item>Vist my page if you have time.</item>
+    <item>We should stay connected!</item>
+    <item>I would love to stay connected.</item>
+    <item>We should connect!</item>
+    <item>Come check out my page, if ya can.</item>
+    <item>Come check out my page, if you can.</item>
+    <item>Come explore my feed, too.</item>
+    <item>Come explore my feed, if you can.</item>
+    <item>Please, come explore my feed.</item>
+    <item>Stay in touch, please.</item>
+    <item>Please, stay in touch.</item>
+    <item>You should stay in touch!</item>
+    <item>Do me a favor and visit my page!</item>
+    <item>Do me a favor and check out my page!</item>
+    <item>Do me a favor and check out my post!</item>
+</string-array>
+
+<string-array name="free_fashion_6">
+    <item>You are the absolute best.</item>
+    <item>You\'re the best.</item>
+    <item>You\’re the best ever.</item>
+    <item>You are so sweet.</item>
+    <item>You\'re the sweetest.</item>
+    <item>You\'re the sweetest ever.</item>
+    <item>You are so sincere.</item>
+    <item>You are the kindest person.</item>
+    <item>You\'re the kindest person ever.</item>
+    <item>You are appreciated!</item>
+    <item>You are so awesome!</item>
+    <item>You are awesome.</item>
+    <item>You are great.</item>
+    <item>You\'re great!</item>
+    <item>You are the greatest!</item>
+    <item>You are truly fabulous!</item>
+    <item>You\'re truly fabulous!</item>
+</string-array>
+
+
+
+</resources>

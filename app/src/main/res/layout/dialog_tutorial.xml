@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    >
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="How to Use This App:"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:text="1. Turn the app on with the switch in the top right."
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:text="2. Click in any editable text field (in any app), and a comment will be generated from your lists"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:text="Click to Test:"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:text="3. Go to the menu in the top left to open \u0022Construct Lists\u0022 to edit and test your combinations"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <!--
+        android:text="Only recent orders are currently displayed, would you like to load additional orders?" -->
+
+    <!--
+        android:text="Selecting 'Today's Orders' will also display the date range filter to load longer time periods " -->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Close"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>

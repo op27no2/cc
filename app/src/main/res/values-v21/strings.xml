@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Comsta</string>
+    <string name="action_settings">Settings</string>
+    <string name="explain_generate">With default behavior, phrases will be automatically pasted when you click on a text field if the app switch is activated to \'on\'. With this setting, the app switch does nothing, and pressing the generate button in the popup overlay will place the generated text in your clipboard for you to paste.</string>
+
+    <string-array name="options">
+        <item>Home</item>
+        <item>Construct Lists</item>
+        <item>Upgrades</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+
+    <string-array name="premium_generic1">
+        <item>Hi,</item>
+        <item>Hey,</item>
+        <item>Hello,</item>
+        <item>Whats up,</item>
+        <item>How\'s it going,</item>
+        <item>How are you,</item>
+        <item>Hi, how are you,</item>
+        <item>Hey, how are you,</item>
+        <item>Hey there,</item>
+        <item>Hey!</item>
+        <item>Hi!</item>
+        <item>Greetings,</item>
+        <item>Wow,</item>
+        <item>Wow!</item>
+        <item>Woah,</item>
+        <item>Woah!</item>
+        <item>Woahh,</item>
+        <item>Oh wow,</item>
+        <item>Hey hey,</item>
+        <item>Oh hey,</item>
+    </string-array>
+
+    <string-array name="premium_generic2">
+        <item>this is a cool post.</item>
+        <item>this is a great post.</item>
+        <item>what a cool post.</item>
+        <item>what a great post.</item>
+        <item>this is really cool.</item>
+        <item>this is really great.</item>
+        <item>I really like this.</item>
+        <item>I really like your style.</item>
+        <item>I really like your page.</item>
+        <item>I really like your posts.</item>
+        <item>I really enjoy this.</item>
+        <item>I really enjoy your style.</item>
+        <item>I really enjoy your page.</item>
+        <item>I really enjoy your posts.</item>
+        <item>You have some great stuff here.</item>
+        <item>You have some great work here.</item>
+        <item>You have some great posts here.</item>
+        <item>These are some really great posts.</item>
+        <item>These are some really cool posts.</item>
+        <item>These are some really nice posts.</item>
+        <item>Cool posts you have here!</item>
+        <item>Nice posts you have here!</item>
+        <item>Great posts you have here!</item>
+        <item>Awesome posts you have here!</item>
+        <item>Cool posts!</item>
+        <item>Nice posts!</item>
+        <item>Great posts!</item>
+        <item>Awesome posts!</item>
+        <item>I love this.</item>
+        <item>I love your style.</item>
+        <item>I love your page.</item>
+        <item>I love your posts.</item>
+        <item>I absolutely love this.</item>
+        <item>I absolutely love your style.</item>
+        <item>I absolutely love your page.</item>
+        <item>I absolutely love your posts.</item>
+        <item>Your page is impressive!</item>
+        <item>Your page is cool!</item>
+        <item>Your page is inspiring!</item>
+        <item>Your page is excellent!</item>
+        <item>Your page is marvelous!</item>
+
+    </string-array>
+    <string-array name="premium_generic3">
+        <item>Please check out my page too!</item>
+        <item>Please check out my stuff too!</item>
+        <item>Please check out my posts too!</item>
+        <item>Check out my page too!</item>
+        <item>Check out my stuff too!</item>
+        <item>Check out my posts too!</item>
+        <item>Look at my page too!</item>
+        <item>Look at my stuff too!</item>
+        <item>Look at my posts too!</item>
+        <item>Please check out my page as well!</item>
+        <item>Please check out my stuff as well!</item>
+        <item>Please check out my posts as well!</item>
+        <item>Check out my page as well!</item>
+        <item>Check out my stuff as well!</item>
+        <item>Check out my posts as well!</item>
+        <item>Look at my page as well!</item>
+        <item>Look at my stuff as well!</item>
+        <item>Look at my posts as well!</item>
+        <item>Please check out my page also!</item>
+        <item>Please check out my stuff also!</item>
+        <item>Please check out my posts also!</item>
+        <item>Check out my page also!</item>
+        <item>Check out my stuff also!</item>
+        <item>Check out my posts also!</item>
+        <item>Look at my page also!</item>
+        <item>Look at my stuff also!</item>
+        <item>Look at my posts also!</item>
+        <item>It would be great if you could look at my page</item>
+        <item>It would be awesome if you could look at my page</item>
+        <item>It would be great if you could look at my stuff</item>
+        <item>It would be awesome if you could look at my stuff</item>
+        <item>It would be great if you could look at my posts</item>
+        <item>It would be awesome if you could look at my posts</item>
+        <item>It would be great if you could look at my page too</item>
+        <item>It would be awesome if you could look at my page too</item>
+        <item>It would be great if you could look at my stuff too</item>
+        <item>It would be awesome if you could look at my stuff too</item>
+        <item>It would be great if you could look at my posts too</item>
+        <item>It would be awesome if you could look at my posts too</item>
+        <item>if you could look at my stuff, that would be great</item>
+        <item>if you could look at my stuff, that would be awesome</item>
+        <item>if you could look at my stuff, that would be amazing</item>
+        <item>if you could look at my page, that would be great</item>
+        <item>if you could look at my page, that would be awesome</item>
+        <item>if you could look at my page, that would be amazing</item>
+        <item>if you could look at my posts, that would be great</item>
+        <item>if you could look at my posts, that would be awesome</item>
+        <item>if you could look at my posts, that would be amazing</item>
+        <item>Take a look at my page if you get a chance.</item>
+        <item>Take a look at my stuff if you get a chance.</item>
+        <item>Take a look at my posts if you get a chance.</item>
+        <item>Please take a look at my page if you get a chance.</item>
+        <item>Please take a look at my stuff if you get a chance.</item>
+        <item>Please take a look at my posts if you get a chance.</item>
+        <item>Please take a look at my page if you get a chance, that would be great!</item>
+        <item>Please take a look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Please take a look at my posts if you get a chance, that would be amazing!</item>
+        <item>Take a look at my page if you get a chance.</item>
+        <item>Take a look at my stuff if you get a chance.</item>
+        <item>Take a look at my posts if you get a chance.</item>
+        <item>Take a look at my page if you get a chance, that would be great!</item>
+        <item>Take a look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Take a look at my posts if you get a chance, that would be amazing!</item>
+        <item>Look at my page if you get a chance.</item>
+        <item>Look at my stuff if you get a chance.</item>
+        <item>Look at my posts if you get a chance.</item>
+        <item>Look at my page if you get a chance, that would be great!</item>
+        <item>Look at my stuff if you get a chance, that would be awesome!</item>
+        <item>Please look at my page if you get a chance.</item>
+        <item>Please look at my stuff if you get a chance.</item>
+        <item>Please look at my posts if you get a chance.</item>
+        <item>Please look at my page if you get a chance, that would be great!</item>
+        <item>Please look at my stuff if you get a chance, that would be awesome!</item>
+        <item>I\'d appreciate if you check out my page if you get a chance.</item>
+        <item>I\'d appreciate if you check out my posts if you get a chance.</item>
+        <item>I\'d appreciate if you check out my stuff if you get a chance.</item>
+
+
+    </string-array>
+
+    <string-array name="premium_generic4">
+        <item>Thanks.</item>
+        <item>Thanks, later!</item>
+        <item>Thanks, cya!</item>
+        <item>Thanks, see ya!</item>
+        <item>Thanks a bunch,</item>
+        <item>Thanks, later!</item>
+        <item>Thanks, cya!</item>
+        <item>Thanks, see ya!</item>
+        <item>Thanks a ton.</item>
+        <item>Thanks a ton, cya!</item>
+        <item>Thanks a ton, later!</item>
+        <item>Thanks a ton, see ya!</item>
+        <item>Thank you.</item>
+        <item>Later.</item>
+        <item>Cya.</item>
+        <item>See ya.</item>
+        <item> </item>
+    </string-array>
+
+
+</resources>

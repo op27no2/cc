@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <nl.psdcompany.duonavigationdrawer.views.DuoMenuView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/menu"
+        android:tag="menu"
+        app:footer="@layout/content_main"
+        app:header="@layout/content_main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <RelativeLayout
+        android:tag="@string/tag_content"
+        android:background="#E0E0E0"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStartWithNavigation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/switch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                app:kswBackColor="@color/colorAccent2"
+                app:kswTextOn="On"
+                app:kswTextOff="Off"
+                app:kswTextExtra="14dp"
+                tools:ignore="RtlHardcoded"/>
+
+            <ImageView
+                android:visibility="visible"
+                android:id="@+id/excel_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_action_name"
+                android:layout_gravity="right"
+                />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+<RelativeLayout
+    android:id="@+id/uninstall_feedback"
+    android:layout_below="@+id/appbar"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        >
+
+    <TextView
+        android:id="@+id/uninstall_text"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:text="Uninstalling? Please Click Here First"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_delete"
+        android:background="@android:color/transparent"
+        android:tint="#000000"
+        tools:ignore="ContentDescription"/>
+</RelativeLayout>
+
+       <FrameLayout
+           android:layout_below="@+id/uninstall_feedback"
+           android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+           />
+        <!--
+               <com.rilixtech.materialfancybutton.MaterialFancyButton
+                   android:id="@+id/start_button"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingBottom="10dp"
+                   android:paddingLeft="20dp"
+                   android:paddingRight="20dp"
+                   android:paddingTop="10dp"
+                   android:layout_marginTop="40dp"
+                   android:layout_marginBottom="40dp"
+                   android:layout_below="@+id/appbar"
+                   android:layout_centerHorizontal="true"
+                   android:elevation="10dp"
+                   fancy:mfb_borderColor="@color/colorAccent"
+                   fancy:mfb_borderWidth="1dp"
+                   fancy:mfb_defaultColor="@color/colorPrimary"
+                   fancy:mfb_focusColor="@color/colorAccent"
+                   fancy:mfb_iconFont="fontawesome.ttf"
+                   fancy:mfb_iconPosition="left"
+                   fancy:mfb_radius="30dp"
+                   fancy:mfb_textSize="20sp"
+                   fancy:mfb_text="START COMSTA!"
+                   fancy:mfb_textColor="#FFFFFF" />
+
+               <View
+                   android:id="@+id/separator"
+                   android:layout_below="@+id/start_button"
+                   android:background="@color/colorPrimary"
+                   android:layout_width = "match_parent"
+                   android:layout_height="1dp"/>
+
+               <android.support.v7.widget.RecyclerView
+                   android:paddingTop="10dp"
+                   android:layout_below="@+id/separator"
+                   android:id="@+id/my_recycler_view"
+                   android:scrollbars="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+       -->
+
+
+
+        </RelativeLayout>
+
+
+
+</nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout>
